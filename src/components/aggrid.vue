@@ -171,24 +171,6 @@
             }
           },
         },
-        mounted() {
-          this.gridColumnApi = this.gridOptions.columnApi;
-        //   this.$ajax.post('http://serverb.imartinfo.com:9001/p/public/api/auto/getSpData/name/eab005f7cb547607a4bbea2485aea641',{
-        //       CO_CD:"2000",
-        //       USER_ID:"web01",
-        //       LAN_CD:"KR",
-        //       TOKEN:"qmeKa56co2qEPNP4ikIa/A=="
-        //   }).then((res) => {
-        //       if(res.status==200){
-        //           console.log(res.data.returnValue)
-        //           this.rowData = res.data.returnValue.slice(0,100)
-        //       }else{
-        //         console.error(res)
-        //       }
-        //   }, (res) => {
-        //     console.error(res)
-        //   })
-        }
     }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
